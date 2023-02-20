@@ -154,7 +154,7 @@ public class task_2 {
 
     public static String replace_whith_String(String test_string) {
         long time = System.nanoTime();
-        String answer_string = test_string.replace("=", "равно");
+        String answer_string = test_string.replace("=", "равно"); // решил не возвращать строки
         time = System.nanoTime() - time;
         String time_1 = "Выполнено за " + time / 1_000_000.0 + " мс";
         return time_1;
